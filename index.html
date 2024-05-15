@@ -2,31 +2,203 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AHI</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/style.css" />
 </head>
 
-    <body>
-        <nav class="bg-blue-500 py-4">
-            <div class="container mx-auto flex justify-between items-center">
-                <!-- Logo y Enlace al Inicio -->
-
-                <a href="index.html" class="text-white text-lg font-bold">
-                    <img src="src/img/Asociación_Borcelle-removebg-preview.png" alt="Logo AHI" class="h-20 mr-6">
-                </a>
-                <!-- Menú de Navegación -->
-                <ul class="flex space-x-6">
-                    <li><a href="index.html" class="text-white hover:text-gray-200">Inicio</a></li>
-                    <li><a href="src/pages/nosotros.html" class="text-white hover:text-gray-200">Acerca de Nosotros</a></li>
-                    <li><a href="src/pages/progamas.html" class="text-white hover:text-gray-200">Programas</a></li>
-                    <li><a href="src/pages/voluntariado.html" class="text-white hover:text-gray-200">Voluntariado</a></li>
-                    <li><a href="src/pages/donaciones.html" class="text-white hover:text-gray-200">Donaciones</a></li>
-                </ul>
+<body>
+    <nav class="bg-blue-500 py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo y Enlace al Inicio -->
+            <a href="index.html" class="text-white text-lg font-bold">
+                <img src="src/img/Asociación_Borcelle-removebg-preview.png" alt="Logo AHI" class="h-20 mr-6" />
+            </a>
+            <!-- Menú de Navegación -->
+            <ul class="flex space-x-6">
+                <li>
+                    <a href="index.html" class="text-white hover:text-gray-200">Inicio</a>
+                </li>
+                <li>
+                    <a href="src/pages/nosotros.html" class="text-white hover:text-gray-200">Acerca de Nosotros</a>
+                </li>
+                <li>
+                    <a href="src/pages/progamas.html" class="text-white hover:text-gray-200">Programas</a>
+                </li>
+                <li>
+                    <a href="src/pages/voluntariado.html" class="text-white hover:text-gray-200">Voluntariado</a>
+                </li>
+                <li>
+                    <a href="src/pages/donaciones.html" class="text-white hover:text-gray-200">Donaciones</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main principal -->
+    <div class="container mx-auto mt-8"> <!-- Completo -->
+        <div class="flex flex-col md:flex-row items-center justify-between border border-gray-300 p-4">
+            <div class="md:w-1/2 mb-4 md:mb-0">
+                <h2 class="text-5xl font-bold mb-2">
+                    ¡Bienvenidos a Ayuda Humanitaria Internacional!
+                </h2>
+                <p class="text-2xl text-gray-600">
+                    Nuestra misión es abordar los desafíos más apremiantes del mundo
+                    mediante la colaboración y la acción solidaria.
+                </p>
             </div>
-        </nav>
-    </body>
+            <div class="md:w-1/2">
+                <img src="src/img/poor-2754335_1920.jpg" alt="Imagen" class="w-full h-auto" />
+            </div>
+        </div>
+        <div class="flex justify-center p-2">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
+                Asociarme
+            </button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
+                Sumarme como voluntariado
+            </button>
+        </div>
+
+        <!-- Resultados de la ONG Parte -->
+        <div class="relative bg-cover bg-center bg-no-repeat"
+            style="background-image: url('https://germinar.org.ar/wp-content/uploads/2020/11/fondo-metricas-germinar-ong-2.jpg');">
+            <div class="container mx-auto py-16">
+                <div class="text-center">
+                    <h3 class="text-3xl font-bold text-white">Resultados</h3>
+                    <div class="text-sm text-white">2023</div>
+                </div>
+                <div class="flex flex-wrap mt-8">
+                    <div class="w-full md:w-1/4 px-4 mb-8">
+                        <div class="text-center bg-white p-8 rounded-lg">
+                            <h2 class="text-4xl font-bold">5180</h2>
+                            <p class="mt-4 text-gray-700">Alumnos, docentes y directivos participaron en los diferentes
+                                talleres y actividades realizadas en más de 82 instituciones educativas de Buenos Aires.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4 px-4 mb-8">
+                        <div class="text-center bg-white p-8 rounded-lg">
+                            <h2 class="text-4xl font-bold">3200</h2>
+                            <p class="mt-4 text-gray-700">Arbustos y herbáceas nativas de unas 70 especies fueron
+                                plantadas en distintas acciones en Reservas Naturales, Escuelas, Vía pública y otros
+                                proyectos en espacios privados.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4 px-4 mb-8">
+                        <div class="text-center bg-white p-8 rounded-lg">
+                            <h2 class="text-4xl font-bold">12.000</h2>
+                            <p class="mt-4 text-gray-700">Plantas se produjeron desde semilla sumando la producción de
+                                nuestro vivero de flora nativa en Escobar y el vivero Biodinámico RAYO de la Escuela
+                                Waldorf Arcángel.</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-1/4 px-4 mb-8">
+                        <div class="text-center bg-white p-8 rounded-lg">
+                            <h2 class="text-4xl font-bold">15.500</h2>
+                            <p class="mt-4 text-gray-700">Kilogramos de alimentos sanos fueron entregados a través de
+                                nuestro nodo de Comercio Justo en alianza con el proyecto “Más cerca es más justo”
+                                (incluye hortalizas, frutas y otros productos).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Progamas Novedades -->
+        <section id="content-section-4">
+            <div class="section-container container text-center">
+                <h1 class="text-5xl p-5">Novedades</h1>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-white rounded-lg shadow-md">
+                        <img src="https://germinar.org.ar/wp-content/uploads/2020/11/programa-regeneracion-ambiental-comunidad-germinar-ong.jpg"
+                            alt="" class="mb-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Regenerando en Comunidad</h3>
+                        <p class="text-gray-700">Sensibilizamos, empoderamos y acompañamos a las comunidades para crear
+                            un mundo más sano, vital y biodiverso. Motivamos a las personas a ser parte de la
+                            re-generación ambiental.</p>
+                        <a href="https://germinar.org.ar/programa-regeneracion-ambiental-en-comunidad/"
+                            class="block mt-4 text-center bg-green-500 text-white py-2 px-4 rounded-md">Más
+                            información</a>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-md">
+                        <img src="https://germinar.org.ar/wp-content/uploads/2020/11/programa-agroecologia-alimentacion-saludable-germinar-ong.jpg"
+                            alt="" class="mb-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Agroecología y Alimentos Sanos</h3>
+                        <p class="text-gray-700">El propósito de este programa es re-conectarnos con los ciclos
+                            naturales, retomar valores y saberes fundamentales de la agricultura familiar para producir
+                            alimentos sanos y de calidad.</p>
+                        <a href="https://germinar.org.ar/programa-agroecologia-y-alimentacion-saludable/"
+                            class="block mt-4 text-center bg-green-500 text-white py-2 px-4 rounded-md">Más
+                            información</a>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-md">
+                        <img src="https://germinar.org.ar/wp-content/uploads/2020/11/programa-educacion-para-sustentabilidad-germinar-ong.jpg"
+                            alt="" class="mb-4 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-2">Educación para la Sustentabilidad</h3>
+                        <p class="text-gray-700">Sensibilizamos y capacitamos a la comunidad en temáticas ambientales, a
+                            través de la reconección con la naturaleza y la revalorización de los espacios verdes.</p>
+                        <a href="https://germinar.org.ar/programa-educacion-para-la-sustentabilidad/"
+                            class="block mt-4 text-center bg-green-500 text-white py-2 px-4 rounded-md">Más
+                            información</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer informacion de la ONG -->
+    <footer class="bg-gray-900 text-white w-full">
+        <div class="w-full mx-auto py-12 px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">ACERCA DE GERMINAR</h3>
+                    <img src="src/img/Asociación_Borcelle-removebg-preview.png" alt="Germinar ONG" class="mb-4 w-40">
+                    <p class="text-sm">En AHI, nos dedicamos a proporcionar ayuda humanitaria a quienes más lo necesitan, independientemente de su ubicación geográfica o circunstancias</p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">CONTACTANOS</h3>
+                    <p class="text-sm">
+                        <a href="https://www.linkedin.com/company/germinar-ong/" target="_blank" rel="noopener">Linked
+                            in @germinarong</a><br>
+                        <a href="https://www.facebook.com/germinarong" target="_blank" rel="noopener">Facebook
+                            @germinarong</a><br>
+                        <a href="https://www.instagram.com/germinarong/" target="_blank" rel="noopener">Instagram
+                            @germinarong</a><br>
+                        <a href="mailto:info@germinar.org.ar" target="_blank"
+                            rel="noopener">info@germinar.org.ar</a><br>
+                        <a href="https://www.youtube.com/channel/UC-G8ZFHxrstv6L9ltM8eIkw" target="_blank"
+                            rel="noopener">Canal Institucional</a><br>
+                        <a href="https://wa.me/541173614185" target="_blank" rel="noopener">011 7361-4185</a>
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">OBJETIVOS DE DESARROLLO SOSTENIBLE</h3>
+                    <p class="text-sm">
+                        <!-- Imágenes de los ODS -->
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">SOMOS PARTE DE:</h3>
+                    <p class="text-sm">
+                        <a href="https://directories.onepercentfortheplanet.org/profile/germinar-ong" target="_blank"
+                            rel="noopener">
+                            <img src="https://germinar.org.ar/wp-content/uploads/2021/11/one-percent-for-the-planet-logo-2.png"
+                                alt="One Percent for The Planet" class="mb-4">
+                        </a>
+                        Estamos orgullosos de ser parte de esta Red Internacional que conecta donantes individuales y/o
+                        empresas con propósito de todo el mundo con Organizaciones Sin Fines de Lucro de triple impacto
+                        positivo (ambiental, social y económico).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-800 py-4">
+            <div class="container mx-auto text-sm text-gray-300">
+                <div class="text-left">Realizado por Gonzalo Romero</div>
+                <div class="text-right">Sitio web de la Ayuda Humanitaria Internacional</div>
+            </div>
+        </div>
+    </footer>
+</body>
 
 </html>
