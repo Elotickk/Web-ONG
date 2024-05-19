@@ -7,6 +7,7 @@
     <title>AHI</title>
     <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2640aafea2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,13 +53,12 @@
                 <img src="src/img/Diseño sin título (6).png" alt="Imagen" class="w-full h-auto" />
             </div>
         </div>
-        <div class="flex justify-center p-2">
-            <button class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mr-2">
-                Asociarme
-            </button>
-            <button class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mr-2">
-                Sumarme como voluntariado
-            </button>
+        <div class="flex justify-center p-2 m-8">
+            <a href="/src/pages/voluntariado.html">
+                <button class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mr-2">
+                    Sumarme como voluntariado
+                </button>
+            </a>
         </div>
 
         <!-- Resultados de la ONG Parte -->
@@ -149,32 +149,26 @@
     <!-- Footer informacion de la ONG -->
     <footer class="bg-cyan-800 text-white w-full mt-6">
         <div class="w-full mx-auto py-12 px-4">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div class="footer-column">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-column ">
                     <h3 class="text-lg font-semibold mb-4">ACERCA DE GERMINAR</h3>
                     <img src="src/img/Asociación_Borcelle-removebg-preview.png" alt="Germinar ONG" class="mb-4 w-40">
                     <p class="text-sm">En AHI, nos dedicamos a proporcionar ayuda humanitaria a quienes más lo necesitan, independientemente de su ubicación geográfica o circunstancias</p>
                 </div>
                 <div class="footer-column">
                     <h3 class="text-lg font-semibold mb-4">CONTACTANOS</h3>
-                    <p class="text-sm">
-                        <a href="#" target="_blank" rel="noopener">Linked
+                    <p class="text-lg">
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> Linked
                             in @ahiong</a><br>
-                        <a href="#" target="_blank" rel="noopener">Facebook
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook
                             @ahiong</a><br>
-                        <a href="#" target="_blank" rel="noopener">Instagram
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram
                             @ahiong</a><br>
-                        <a href="#" target="_blank"
-                            rel="noopener">info@ahiong.org.ar</a><br>
-                        <a href="#" target="_blank"
-                            rel="noopener">Canal Institucional</a><br>
-                        <a href="#" target="_blank" rel="noopener">011 7361-4185</a>
-                    </p>
-                </div>
-                <div class="footer-column">
-                    <h3 class="text-lg font-semibold mb-4">OBJETIVOS DE DESARROLLO SOSTENIBLE</h3>
-                    <p class="text-sm">
-                        <!-- Imágenes de los ODS -->
+                        <a class="hover:text-gray-800" href="#" target="_blank"
+                            rel="noopener"><i class="fas fa-envelope-square"></i> info@ahiong.org.ar</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank"
+                            rel="noopener"><i class="fas fa-play-circle"></i> Canal Institucional</a><br>
+                        <a class="hover:text-gray-800"  href="#" target="_blank" rel="noopener"><i class="fas fa-phone-square"></i> 011 7361-4185</a>
                     </p>
                 </div>
                 <div class="footer-column">

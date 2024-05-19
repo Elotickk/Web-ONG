@@ -7,6 +7,7 @@
     <title>AHI</title>
     <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2640aafea2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,5 +37,83 @@
             </ul>
         </div>
     </nav>
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-6xl font-semibold mb-8 text-center text-cyan-500">Únete a Nosotros como Voluntario</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Formulario de contacto -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <div class="p-6">
+                        <form action="#" method="POST">
+                            <div class="mb-4">
+                                <label for="nombre" class="block text-gray-700 font-semibold mb-2">Nombre Completo</label>
+                                <input type="text" id="nombre" name="nombre" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-semibold mb-2">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="mensaje" class="block text-gray-700 font-semibold mb-2">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" required></textarea>
+                            </div>
+                            <button type="submit" class="block w-full bg-cyan-500 hover:bg-cyan-600 text-white font-semibold py-2 px-4 rounded">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Imágenes -->
+                <div class="grid grid-cols-1 md:grid-cols-1 gap-4">
+                    <img src="/src/img/Diseño sin título (2).png" alt="Imagen 1" class="rounded-lg shadow-md">
+                    <img src="/src/img/Diseño sin título (1).png" alt="Imagen 2" class="rounded-lg shadow-md">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-cyan-800 text-white w-full mt-6">
+        <div class="w-full mx-auto py-12 px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-column ">
+                    <h3 class="text-lg font-semibold mb-4">ACERCA DE GERMINAR</h3>
+                    <img src="/src/img/Asociación_Borcelle-removebg-preview.png" alt="AHI" class="mb-4 w-40">
+                    <p class="text-sm">En AHI, nos dedicamos a proporcionar ayuda humanitaria a quienes más lo necesitan, independientemente de su ubicación geográfica o circunstancias</p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">CONTACTANOS</h3>
+                    <p class="text-lg">
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> Linked
+                            in @ahiong</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook
+                            @ahiong</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram
+                            @ahiong</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank"
+                            rel="noopener"><i class="fas fa-envelope-square"></i> info@ahiong.org.ar</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank"
+                            rel="noopener"><i class="fas fa-play-circle"></i> Canal Institucional</a><br>
+                        <a class="hover:text-gray-800"  href="#" target="_blank" rel="noopener"><i class="fas fa-phone-square"></i> 011 7361-4185</a>
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">SOMOS PARTE DE:</h3>
+                    <p class="text-sm">
+                        <a href="https://directories.onepercentfortheplanet.org/profile/germinar-ong" target="_blank"
+                            rel="noopener">
+                            <img src="https://germinar.org.ar/wp-content/uploads/2021/11/one-percent-for-the-planet-logo-2.png"
+                                alt="One Percent for The Planet" class="mb-4">
+                        </a>
+                        Estamos orgullosos de ser parte de esta Red Internacional que conecta donantes individuales y/o
+                        empresas con propósito de todo el mundo con Organizaciones Sin Fines de Lucro de triple impacto
+                        positivo (ambiental, social y económico).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-cyan-950 py-4">
+            <div class="container mx-auto text-sm text-gray-300 tex">
+                <div class="text-left">Realizado por Gonzalo Romero</div>
+                <div class="text-right">Sitio web de la Ayuda Humanitaria Internacional</div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

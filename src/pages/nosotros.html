@@ -7,6 +7,7 @@
     <title>AHI</title>
     <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/2640aafea2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -36,17 +37,136 @@
             </ul>
         </div>
     </nav>
-    \<div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4">
-        <div class="bg-white rounded-lg shadow-md">
-            <div class="px-6 py-4">
-                <h3 class="text-xl font-semibold mb-2">Misión y Visión</h3>
-                <img src="https://germinar.org.ar/wp-content/uploads/2020/11/mision-y-vision-germinar-ong.jpg" alt="" class="w-full h-auto mb-4">
-                <p class="text-gray-700"><strong>Que el ser humano viva de forma sostenible y en armonía con el ambiente</strong> que lo rodea, respetándolo, adaptándose a sus características naturales y/o siendo actor fundamental en la regeneración del mismo junto a su comunidad.</p>
-                <p class="text-gray-700 mt-4"><strong>Sensibilizar y concientizar a personas, organizaciones y gobiernos sobre la importancia de los espacios naturales para el bien común.</strong> Capacitar y proponer acciones concretas para la regeneración socio-ambiental. Ser protagonistas de la creación de una sociedad más consciente y respetuosa en su relación con el ambiente.</p>
+    <section class="bg-gray-100 py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row md:space-x-8">
+                <!-- Contenido de texto -->
+                <div class="md:w-1/2">
+                    <h2 class="text-6xl font-semibold mb-6 text-cyan-500">Acerca de Nosotros</h2>
+                    <p class="text-gray-700 leading-relaxed mb-4">En Ayuda Humanitaria Internacional (AHI), nos dedicamos a proporcionar ayuda humanitaria a quienes más lo necesitan, independientemente de su ubicación geográfica o circunstancias. Nuestra misión es abordar los desafíos más apremiantes del mundo mediante la colaboración y la acción solidaria.</p>
+                    <p class="text-gray-700 leading-relaxed">Desde nuestra fundación, hemos trabajado incansablemente para sensibilizar, empoderar y acompañar a las comunidades en situaciones de vulnerabilidad. Creemos en un mundo donde la solidaridad y la compasión son los pilares fundamentales de la sociedad.</p>
+                </div>
+                <!-- Imágenes -->
+                <div class="md:w-1/2 flex justify-center items-center">
+                    <div>
+                        <img src="/src/img/Diseño sin título (7).png" alt="Imagen 1" class="rounded-lg shadow-md w-full md:w-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div> 
+        <div class="flex justify-center py-6 bg-cyan-500 mb-2">
+            <h2 class="text-6xl font-semibold mb-6 text-white"> Nuestro Equipo </h2>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/src/img/pexels-olly-733872.jpg" alt="Miembro del equipo 1" class="w-full h-72 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Ana López Martínez</h3>
+                    <p class="text-gray-700">Directora Ejecutiva:</p>
+                    <p class="text-gray-600 mt-2">Encargada de liderar la organización, establecer la visión estratégica y coordinar las operaciones.</p>
+                </div>
+            </div>
+        
+            <!-- Card 2 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/src/img/pexels-italo-melo-881954-2379004.jpg" alt="Miembro del equipo 2" class="w-full h-72 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Diego Rodríguez Fernández</h3>
+                    <p class="text-gray-700">Coordinador de Proyectos:</p>
+                    <p class="text-gray-600 mt-2">Responsable de planificar, implementar y monitorear los proyectos de la ONG.</p>
+                </div>
+            </div>
+        
+            <!-- Card 3 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/src/img/pexels-buro-millennial-636760-1438081.jpg" alt="Miembro del equipo 3" class="w-full h-72 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Manuel Garcia Lopez</h3>
+                    <p class="text-gray-700">Responsable de Voluntariado: </p>
+                    <p class="text-gray-600 mt-2">Encargado de reclutar, capacitar y coordinar a los voluntarios que colaboran en los programas y proyectos de la organización.</p>
+                </div>
+            </div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Card 4 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/src/img/pexels-danxavier-1239288.jpg" alt="Miembro del equipo 1" class="w-full h-72 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">María González Ruiz</h3>
+                    <p class="text-gray-700">Especialista en Comunicaciones: </p>
+                    <p class="text-gray-600 mt-2"> Responsable de gestionar la comunicación interna y externa de la ONG, incluyendo redes sociales, sitio web y relaciones con medios de comunicación.</p>
+                </div>
+            </div>
+        
+            <!-- Card 5 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/src/img/pexels-divinetechygirl-1181519.jpg" alt="Miembro del equipo 2" class="w-full h-72 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Laura Díaz Martínez</h3>
+                    <p class="text-gray-700">Coordinador de Recaudación de Fondos:</p>
+                    <p class="text-gray-600 mt-2">Encargado de diseñar estrategias para obtener financiamiento y gestionar las donaciones de la comunidad, empresas y otras organizaciones.</p>
+                </div>
+            </div>
+        
+            <!-- Card 6 -->
+            <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                <img src="/src/img/pexels-divinetechygirl-1181686.jpg" alt="Miembro del equipo 3" class="w-full h-72 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-semibold mb-2">Andrea Pérez Sánchez</h3>
+                    <p class="text-gray-700">Responsable de Educación y Sensibilización: </p>
+                    <p class="text-gray-600 mt-2"> Encargado de desarrollar e implementar programas educativos para sensibilizar a la comunidad sobre temas relevantes y promover el cambio social</p>
             </div>
         </div>
     </div>
-
+    <footer class="bg-cyan-800 text-white w-full mt-6">
+        <div class="w-full mx-auto py-12 px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="footer-column ">
+                    <h3 class="text-lg font-semibold mb-4">ACERCA DE GERMINAR</h3>
+                    <img src="/src/img/Asociación_Borcelle-removebg-preview.png" alt="AHI" class="mb-4 w-40">
+                    <p class="text-sm">En AHI, nos dedicamos a proporcionar ayuda humanitaria a quienes más lo necesitan, independientemente de su ubicación geográfica o circunstancias</p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">CONTACTANOS</h3>
+                    <p class="text-lg">
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> Linked
+                            in @ahiong</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook"></i> Facebook
+                            @ahiong</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram
+                            @ahiong</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank"
+                            rel="noopener"><i class="fas fa-envelope-square"></i> info@ahiong.org.ar</a><br>
+                        <a class="hover:text-gray-800" href="#" target="_blank"
+                            rel="noopener"><i class="fas fa-play-circle"></i> Canal Institucional</a><br>
+                        <a class="hover:text-gray-800"  href="#" target="_blank" rel="noopener"><i class="fas fa-phone-square"></i> 011 7361-4185</a>
+                    </p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="text-lg font-semibold mb-4">SOMOS PARTE DE:</h3>
+                    <p class="text-sm">
+                        <a href="https://directories.onepercentfortheplanet.org/profile/germinar-ong" target="_blank"
+                            rel="noopener">
+                            <img src="https://germinar.org.ar/wp-content/uploads/2021/11/one-percent-for-the-planet-logo-2.png"
+                                alt="One Percent for The Planet" class="mb-4">
+                        </a>
+                        Estamos orgullosos de ser parte de esta Red Internacional que conecta donantes individuales y/o
+                        empresas con propósito de todo el mundo con Organizaciones Sin Fines de Lucro de triple impacto
+                        positivo (ambiental, social y económico).
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="bg-cyan-950 py-4">
+            <div class="container mx-auto text-sm text-gray-300 tex">
+                <div class="text-left">Realizado por Gonzalo Romero</div>
+                <div class="text-right">Sitio web de la Ayuda Humanitaria Internacional</div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
