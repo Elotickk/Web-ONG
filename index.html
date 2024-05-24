@@ -5,11 +5,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AHI</title>
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/2640aafea2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="/src/img/Asociación_Borcelle-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="/src/css/styles.css">
 </head>
-
 <body>
     <nav class="bg-cyan-500 py-4">
         <div class="container mx-auto flex justify-between items-center">
@@ -53,7 +52,7 @@
                 <img src="src/img/Diseño sin título (6).png" alt="Imagen" class="w-full h-auto" />
             </div>
         </div>
-        <div class="flex justify-center p-2 m-8">
+        <div class="flex justify-center p-6 m-8">
             <a href="/src/pages/voluntariado.html">
                 <button class="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded mr-2">
                     Sumarme como voluntariado
@@ -62,53 +61,34 @@
         </div>
 
         <!-- Resultados de la ONG Parte -->
-        <div class="relative bg-cover bg-center bg-no-repeat "
-            style="background-image: url('src/img/Diseño\ sin\ título\ \(10\).png');">
+        <div class="container w-full bg-cover bg-center bg-no-repeat " style="background-image: url('src/img/Diseño\ sin\ título\ \(10\).png');">
             <div class="container mx-auto py-16">
-                <div class="text-center">
-                    <h3 class="text-4xl font-bold text-white">Resultados</h3>
-                    <div class="text-lg text-white font-bold">2023</div>
+                <div class="text-center mb-8">
+                    <h2 class="text-5xl font-bold text-white p-4">Resultados</h2>
+                    <div class="text-xl text-white font-bold">2023</div>
                 </div>
-                <div class="flex flex-wrap mt-8">
-                    <div class="w-full md:w-1/4 px-4 mb-8">
-                        <div class="text-center bg-cyan-500 p-8 rounded-lg ">
-                            <h2 class="text-4xl font-bold text-white">5180</h2>
-                            <p class="mt-4 text-white">Alumnos, docentes y directivos participaron en los diferentes
-                                talleres y actividades realizadas en más de 82 instituciones educativas de Buenos Aires.
-                            </p>
-                        </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8 p-4">
+                    <div class="p-6 bg-cyan-500 rounded-lg shadow-md">
+                        <h2 class="text-xl font-bold text-white text-center">5180</h2>
+                        <p class="mt-4 text-white">Alumnos, docentes y directivos participaron en los diferentes talleres y actividades realizadas en más de 82 instituciones educativas de Buenos Aires.</p>
                     </div>
-                    <div class="w-full md:w-1/4 px-4 mb-8">
-                        <div class="text-center bg-cyan-500 p-8 rounded-lg ">
-                            <h2 class="text-4xl font-bold text-white">3200</h2>
-                            <p class="mt-4 text-white">Arbustos y herbáceas nativas de unas 70 especies fueron
-                                plantadas en distintas acciones en Reservas Naturales, Escuelas, Vía pública y otros
-                                proyectos en espacios privados.</p>
-                        </div>
+                    <div class="p-6 bg-cyan-500 rounded-lg shadow-md">
+                        <h2 class="text-xl font-bold text-white text-center">3200</h2>
+                        <p class="mt-4 text-white">Arbustos y herbáceas nativas de unas 70 especies fueron plantadas en distintas acciones en Reservas Naturales, Escuelas, Vía pública y otros proyectos en espacios privados.</p>
                     </div>
-                    <div class="w-full md:w-1/4 px-4 mb-8">
-                        <div class="text-center bg-cyan-500 p-8 rounded-lg">
-                            <h2 class="text-4xl font-bold text-white">12.000</h2>
-                            <p class="mt-4 text-white">Plantas se produjeron desde semilla sumando la producción de
-                                nuestro vivero de flora nativa en Escobar y el vivero Biodinámico RAYO de la Escuela
-                                Waldorf Arcángel.</p>
-                        </div>
-                    </div>
-                    <div class="w-full md:w-1/4 px-4 mb-8">
-                        <div class="text-center bg-cyan-500 p-8 rounded-lg">
-                            <h2 class="text-5xl font-bold text-white">15.500</h2>
-                            <p class="mt-4 text-white">Kilogramos de alimentos sanos fueron entregados a través de
-                                nuestro nodo de Comercio Justo en alianza con el proyecto “Más cerca es más justo”
-                                (incluye hortalizas, frutas y otros productos).</p>
-                        </div>
+                    <div class="p-6 bg-cyan-500 rounded-lg shadow-md">
+                        <h2 class="text-xl font-bold text-white text-center">12.000</h2>
+                        <p class="mt-4 text-white">Plantas se produjeron desde semilla sumando la producción de nuestro vivero de flora nativa en Escobar y el vivero Biodinámico RAYO de la Escuela Waldorf Arcángel.</p>
                     </div>
                 </div>
             </div>
         </div>
+        
+        
         <!-- Progamas Novedades -->
         <section id="content-section-4">
             <div class="section-container container text-center">
-                <h1 class="text-5xl p-5 text-cyan-500 font-bold">Novedades</h1>
+                <h1 class="text-5xl p-6 text-cyan-500 font-bold">Novedades</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div class="p-6 bg-cyan-500 rounded-lg shadow-md">
                         <img src="https://germinar.org.ar/wp-content/uploads/2020/11/programa-regeneracion-ambiental-comunidad-germinar-ong.jpg"
@@ -129,7 +109,7 @@
                             naturales, retomar valores y saberes fundamentales de la agricultura familiar para producir
                             alimentos sanos y de calidad.</p>
                         <a href="https://germinar.org.ar/programa-agroecologia-y-alimentacion-saludable/"
-                            class="block mt-4 text-center bg-white text-cyan-500 text-cyan-500 py-2 px-4 rounded-md">Más
+                            class="block mt-4 text-center bg-white text-cyan-500 py-2 px-4 rounded-md">Más
                             información</a>
                     </div>
                     <div class="p-6 bg-cyan-500 rounded-lg shadow-md">
@@ -139,7 +119,7 @@
                         <p class="text-white">Sensibilizamos y capacitamos a la comunidad en temáticas ambientales, a
                             través de la reconección con la naturaleza y la revalorización de los espacios verdes.</p>
                         <a href="https://germinar.org.ar/programa-educacion-para-la-sustentabilidad/"
-                            class="block mt-4 text-center bg-white text-cyan-500 text-cyan-500 py-2 px-4 rounded-md">Más
+                            class="block mt-4 text-center bg-white text-cyan-500 py-2 px-4 rounded-md">Más
                             información</a>
                     </div>
                 </div>
