@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build:css": "tailwindcss build C:/Users/gonza/Desktop/Progamacion/ProyectosEnCurso/ONG/src/css/style.css"
+    "build-css": "tailwindcss build C:/Users/gonza/Desktop/Progamacion/ProyectosEnCurso/ONG/src/css/input.css"
   },
   "dependencies": {
     "tailwindcss": "^3.4.3"
